@@ -1,0 +1,22 @@
+.form-field > label{
+    display: block;
+}
+
+.form-field > input{
+    padding: 8px;
+    margin-bottom: 8px;
+    width: 320px;
+
+}
+.center{
+    width: 50%;
+    margin: auto;
+}
+
+.form-button{
+    display: flex;
+    justify-content: space-between;
+}
+.form-button >button{
+    padding: 8px 24px;
+}
