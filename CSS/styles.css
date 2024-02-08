@@ -5,7 +5,8 @@
 .form-field > input{
     padding: 8px;
     margin-bottom: 8px;
-    width: 320px;
+    width: 100%;
+    
 
 }
 .center{
@@ -19,4 +20,10 @@
 }
 .form-button >button{
     padding: 8px 24px;
+}
+.block{
+    display: block;
+}
+*{
+    box-sizing: border-box;
 }

@@ -28,8 +28,27 @@
       </div>
 
       <div>
+        <label class="block">Gender</label>
+        <input type="radio" value="Male" name="gender" id="maleid"/><label for="maleid">Male</label>
+        <input type="radio" value="feMale" name="gender" id="femaleid"/><label for="femaleid">Female</label>
+      </div>
+
+      <div>
+        <label class="block" for="ubivercity">University(opyional)</label>
+        <input type="text" name="university" id="univercityID" list="unilist"/>
+        <datalist id="unilist" >
+          <option></option>
+          <option>SLIIT</option>
+          <option>CINEC</option>
+          <option>NIBM</option>
+          <option>IIT</option>
+        </select>
+         
+      </div>
+
+      <div>
         <input type="checkbox" id="check">
-        <label for="check">I agree to all</label>
+        <label for="check">I agree to all terms and conditions</label>
       </div>
 
       <div class="form-button">
